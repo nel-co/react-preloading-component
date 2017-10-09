@@ -1,0 +1,37 @@
+.PreLoading-Lines {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;  
+  height: 100%; width: 100%;
+}
+
+.Lines-shape {
+  border-radius: 5px/1.25px;
+  animation: Lines 1.2s ease-in-out infinite;  
+}
+
+.Lines-shape:nth-of-type(2) {
+  animation-delay: .2s;
+}
+
+.Lines-shape:nth-of-type(3) {
+  animation-delay: .4s;
+}
+
+.Lines-shape:nth-of-type(4) {
+  animation-delay: .6s;
+}
+
+@keyframes Lines {
+  0% {
+    transform: scaleY(1.2);
+  }
+  50% {
+    transform: scaleY(.5);
+    opacity: .5;
+  }
+  100% {
+    transform: scaleY(1.2);    
+  }
+}

@@ -1,0 +1,28 @@
+.PreLoading-Text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;  
+  height: 100%; width: 100%;
+}
+
+.PreLoading-Text-wrapper span {
+  animation: Text 1.6s linear infinite;  
+}
+
+.PreLoading-Text-wrapper span:nth-child(2) {
+  animation-delay: .4s;
+}
+
+.PreLoading-Text-wrapper span:nth-child(3) {
+  animation-delay: .8s;
+}
+
+@keyframes Text {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,34 @@
+.PreLoading-Triple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;  
+  height: 100%; width: 100%;
+}
+
+.PreLoading-Circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: transparent;
+  border-bottom: 2px solid;    
+  animation: Triple 1.6s ease-in-out infinite;  
+}
+
+.C2 {
+  animation-delay: .4s;
+}
+
+.C3 {
+  animation-delay: .8s;  
+}
+
+@keyframes Triple {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);    
+  }
+}

@@ -1,0 +1,37 @@
+.PreLoading-Grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;  
+  height: 100%; width: 100%;
+}
+
+.Grid-row {
+  display: flex;
+}
+
+.Grid-square {
+  animation: Grid 1.6s ease-in-out infinite;  
+}
+
+.G2 {
+  animation-delay: .4s;
+}
+
+.G3 {
+  animation-delay: .8s;
+}
+
+.G4 {
+  animation-delay: 1.2s;
+}
+
+@keyframes Grid {
+  from {
+    opacity: .2;
+  }
+  to {
+    opacity: 1;
+  }
+}

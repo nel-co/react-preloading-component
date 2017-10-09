@@ -1,0 +1,35 @@
+.PreLoading-Progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;  
+  height: 100%; width: 100%;
+}
+
+.Progress-wrapper {
+  width: 75%;
+  max-width: 400px;
+  height: 6px;
+  border-radius: 3px;
+  background: #eeeeee;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Progress-bar {
+  display: block;
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;  
+  animation: Progress linear forwards;
+}
+
+@keyframes Progress {
+  from {
+    width: 0%
+  }
+  to {
+    width: 100%
+  }
+}

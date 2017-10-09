@@ -1,0 +1,31 @@
+.PreLoading-Bounce {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;  
+  height: 100%; width: 100%;
+}
+
+.Bounce-circle {
+  border-radius: 50%;
+  position: absolute;
+  animation: Bounce 1s ease infinite;
+}
+
+@keyframes Bounce {
+  0% {
+    transform: scale(1);    
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  60% {
+    transform: scale(.6);
+  }
+  80% {
+    transform: scale(.95);
+  }
+  100% {
+    transform: scale(.9);    
+  }
+}

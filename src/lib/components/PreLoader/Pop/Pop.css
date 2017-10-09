@@ -1,0 +1,35 @@
+.PreLoading-Pop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; width: 100%;
+}
+
+.Pop-circle {
+  animation: Pop 1.5s ease infinite;
+  border-radius: 100%;
+}
+
+.Pop-circle:nth-child(1) {
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+}
+
+.Pop-circle:nth-child(2) {
+  animation-delay: .5s;
+  -webkit-animation-delay: .5s;
+}
+
+.Pop-circle:nth-child(3) {
+  animation-delay: 1.1s;
+  -webkit-animation-delay: 1.1s;
+}
+
+@keyframes Pop {
+  0% {
+    transform: scale(1.0);
+  }
+  20% {
+    transform: scale(1.8);
+  }
+}

@@ -1,0 +1,29 @@
+.PreLoading-Scan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;  
+  height: 100%; width: 100%;
+}
+
+.Scan-shape {
+  border-radius: 10%;
+  animation: Grid .9s linear infinite;  
+}
+
+.Scan-shape:nth-of-type(2) {
+  animation-delay: .3s;
+}
+
+.Scan-shape:nth-of-type(3) {
+  animation-delay: .6s;
+}
+
+@keyframes Scan {
+  from {
+    opacity: .5;
+  }
+  to {
+    opacity: 1;
+  }
+}
