@@ -1,7 +1,9 @@
 # React-Preloading-Component
 
 **React-Preloading-Component** is a css loading animation component library to use in React projects.
+[Live demo](https://nel-co.github.io/react-preloading-component-demo/)
 
+![alt text](https://raw.githubusercontent.com/nel-co/react-preloading-component/master/loading-demo.gif)
 ## Getting Started
 
 ```
