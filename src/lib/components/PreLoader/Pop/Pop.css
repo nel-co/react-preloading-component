@@ -30,6 +30,6 @@
     transform: scale(1.0);
   }
   20% {
-    transform: scale(1.8);
+    transform: rotate(0.001deg) scale(1.8);
   }
 }

@@ -7,7 +7,6 @@
 }
 
 .Lines-shape {
-  border-radius: 5px/1.25px;
   animation: Lines 1.2s ease-in-out infinite;  
 }
 

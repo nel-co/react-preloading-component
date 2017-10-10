@@ -27,12 +27,12 @@
 
 @keyframes Pulse {
   0% {
-    transform: scale(1.0);
+    transform: rotate(0.001deg) scale(1.0);
   }
   40% {
-    transform: scale(1.2);
+    transform: rotate(0.001deg) scale(1.2);
   }
   70% {
-    transform: scale(0);    
+    transform: rotate(0.001deg) scale(0);    
   }
 }

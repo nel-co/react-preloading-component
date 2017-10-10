@@ -11,6 +11,7 @@
   position: absolute;
   opacity: .5;
   animation: Grow 2s cubic-bezier(0,.91,.72,.91) infinite;
+  /* -moz-animation: Grow 2s ease-in-out infinite; */
 }
 
 .Grow-circle:nth-of-type(2) {
@@ -21,9 +22,9 @@
 
 @keyframes Grow {
   0%, 100% {
-    transform: scale(0);
+    transform: rotate(0.001deg) scale(0);
   }
   50% {
-    transform: scale(1);
+    transform: rotate(0.001deg) scale(1);
   }
 }
