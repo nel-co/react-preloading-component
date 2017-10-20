@@ -1,6 +1,10 @@
 {
   "name": "react-preloading-component",
+<<<<<<< HEAD
   "version": "0.0.2",
+=======
+  "version": "0.0.3",
+>>>>>>> 41fdbd9b887a2f52ef0e396f5b09b132542ab089
   "description": "React preloading components",
   "main": "build/index.js",
   "scripts": {

@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import './Spinner.css';
+import './Third.css';
 
-export default class Spinner extends Component  {
+export default class Third extends Component  {
 
   static defaultProps = {
     color: '#FF4601',
-    secondaryColor: '#e6e6e6',
     size: 40
   }
 
@@ -19,15 +18,16 @@ export default class Spinner extends Component  {
   render() {
     const style = {
       border: `${this.props.size / 6.6}px solid transparent`,
-      borderColor: this.props.secondaryColor,
       borderTopColor: this.props.color,
+      borderRightColor: this.props.color,
+      borderBottomColor: this.props.color,
       borderSize: this.props.size / 6.6,
       height: this.props.size,
       width: this.props.size,
     }
     return (
-      <div className="PreLoading-Spinner">
-        <span style={style} className="Spinner-circle"></span>
+      <div className="PreLoading-Third">
+        <span style={style} className="Third-circle"></span>
       </div>
     );
   }

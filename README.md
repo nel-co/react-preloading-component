@@ -2,9 +2,8 @@
 
 **React-Preloading-Component** is a css loading animation component library to use in React projects.
 
-[Live demo](https://nel-co.github.io/react-preloading-component-demo/)
+[Check out a live demo](https://nel-co.github.io/react-preloading-component-demo/)
 
-![alt text](https://raw.githubusercontent.com/nel-co/react-preloading-component/master/loading-demo.gif)
 ## Getting Started
 
 ```
@@ -35,6 +34,22 @@ render(<App />, document.querySelector('#app'));
 <Bounce
   color="#FF4601" // Default hex color (string)
   size="40" // Default Size in px (number)
+/>
+```
+
+#### ```<Eye />```
+```javascript
+<Eye
+  color="#FF4601" // Default hex color (string)
+  size="20" // Default Size in px (number)
+/>
+```
+
+#### ```<Flag />```
+```javascript
+<Flag
+  color="#FF4601" // Default hex color (string)
+  size="10" // Default Size in px (number)
 />
 ```
 
@@ -110,6 +125,14 @@ render(<App />, document.querySelector('#app'));
   color="#FF4601" // Default hex color (string)
   fontSize="1.5em" // Default font size (string)
   text="Loading" // Default text (string)
+/>
+```
+
+#### ```<Third />```
+```javascript
+<Third
+  color="#FF4601" // Default hex color (string)
+  size="40" // Default Size in px (number)  
 />
 ```
 
