@@ -1,0 +1,42 @@
+.PreLoading-Eye {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%; width: 100%;
+}
+
+.Eye-circle {
+  border-radius: 100%;
+  position: absolute;
+  border: 1px solid transparent;
+}
+
+.Eye-circle:nth-of-type(1) {
+  animation: EyeInner 1.3s ease-in-out infinite;
+}
+
+.Eye-circle:nth-of-type(2) {
+  animation: EyeOuter 1.3s ease-in-out infinite;
+}
+
+@keyframes EyeInner {
+  0%, 100% {
+    transform: rotate(0.001deg) scale(.6);
+  }
+  70% {
+    transform: rotate(0.001deg) scale(.9);
+  }
+}
+
+@keyframes EyeOuter {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  70% {
+    transform: rotate(540deg) scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

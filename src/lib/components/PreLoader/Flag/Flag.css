@@ -1,0 +1,58 @@
+.PreLoading-Flag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%; width: 100%;
+}
+
+.PreLoading-row {
+  display: flex;
+}
+
+.Flag-circle {
+  border-radius: 100%;
+  animation: Flag 1.4s ease-in-out infinite;
+}
+
+.PreLoading-row:nth-of-type(1) .Flag-circle:nth-of-type(2) {
+  animation-delay: .2s;
+}
+
+.PreLoading-row:nth-of-type(1) .Flag-circle:nth-of-type(3) {
+  animation-delay: .4s;
+}
+
+.PreLoading-row:nth-of-type(2) .Flag-circle:nth-of-type(1) {
+  animation-delay: .1s;
+}
+
+.PreLoading-row:nth-of-type(2) .Flag-circle:nth-of-type(2) {
+  animation-delay: .3s;
+}
+
+.PreLoading-row:nth-of-type(2) .Flag-circle:nth-of-type(3) {
+  animation-delay: .5s;
+}
+
+.PreLoading-row:nth-of-type(3) .Flag-circle:nth-of-type(1) {
+  animation-delay: .3s;
+}
+
+.PreLoading-row:nth-of-type(3) .Flag-circle:nth-of-type(2) {
+  animation-delay: .5s;
+}
+
+.PreLoading-row:nth-of-type(3) .Flag-circle:nth-of-type(3) {
+  animation-delay: .7s;
+}
+
+@keyframes Flag {
+  0% {
+    transform: rotate(0.001deg) scale(1.2);
+  }
+  80% {
+    transform: rotate(0.001deg) scale(.8);
+    opacity: .72;
+  }
+}

@@ -10,6 +10,9 @@ import Lines from './components/PreLoader/Lines/Lines';
 import Progress from './components/PreLoader/Progress/Progress';
 import Triple from './components/PreLoader/Triple/Triple';
 import Text from './components/PreLoader/Text/Text';
+import Flag from './components/PreLoader/Flag/Flag';
+import Eye from './components/PreLoader/Eye/Eye';
+import Third from './components/PreLoader/Third/Third';
 
 export {
   Wave,
@@ -23,6 +26,9 @@ export {
   Lines,
   Progress,
   Triple,
-  Text
+  Text,
+  Flag,
+  Eye,
+  Third
 };
 

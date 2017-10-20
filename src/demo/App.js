@@ -11,12 +11,17 @@ import Lines from '../lib/components/PreLoader/Lines/Lines';
 import Progress from '../lib/components/PreLoader/Progress/Progress';
 import Triple from '../lib/components/PreLoader/Triple/Triple';
 import Text from '../lib/components/PreLoader/Text/Text';
+import Flag from '../lib/components/PreLoader/Flag/Flag';
+import Eye from '../lib/components/PreLoader/Eye/Eye';
+import Third from '../lib/components/PreLoader/Third/Third';
 
 const App = () => (
   <div style={demoWrapper}>
     <h1>React-Preloading-Components Demo </h1>
     <div style={demoSection}>
       <Bounce />
+      <Eye />
+      <Flag />      
       <Grid />
       <Grow />
       <Lines />
@@ -26,6 +31,7 @@ const App = () => (
       <Scan />
       <Spinner />
       <Text />
+      <Third />
       <Triple />
       <Wave />
     </div>
